@@ -35,10 +35,45 @@
     color: #009879;
 }
 
+
 table {
     display: block;
     overflow-x: auto;
     white-space: nowrap;
 }
 
+.names {
+    /*max-width: 120px;
+}
 
+.namecol {
+    position: absolute;
+    /*width: 5em;
+    left: 0;
+    top: auto;
+    border-top-width: 1px;
+    /*only relevant for first row*/
+    margin-top: -1px;
+    /*compensate for top border*/
+  }
+
+  .totalcol {
+    position: absolute;
+    width: 5em;
+    right: 0;
+    top: auto;
+    border-top-width: 1px;
+    /*only relevant for first row*/
+    margin-top: -1px;
+    /*compensate for top border*/
+    background-color: white;
+  }
+
+  .namecol:before {
+    content: ' ';
+  }
+
+  .long {
+    background: yellow;
+    /*letter-spacing: 1em;
+  }
