@@ -66,7 +66,7 @@ table {
     /*only relevant for first row*/
     margin-top: -1px;
     /*compensate for top border*/
-    background-color: white;
+    background-color: plum;
   }
 
   .namecol:before {
